@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PooCoin-React/static/css/main.c1ef298e.css",
+    "main.js": "/PooCoin-React/static/js/main.6ab0931d.js",
+    "index.html": "/PooCoin-React/index.html",
+    "main.c1ef298e.css.map": "/PooCoin-React/static/css/main.c1ef298e.css.map",
+    "main.6ab0931d.js.map": "/PooCoin-React/static/js/main.6ab0931d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1ef298e.css",
+    "static/js/main.6ab0931d.js"
+  ]
+}
