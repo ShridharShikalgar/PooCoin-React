@@ -1,0 +1,108 @@
+.BannerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262626;
+    color: white;
+}
+.Banner{
+    height: 32vh;
+    width: 65%;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+/* -------------------------------------------------------------- */
+.ParentSearchDIV{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 3px;
+}
+.searchDIV{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid wheat;
+    background-color: white;
+    width: 27vw;
+    border-radius: 5px;
+    padding: 7px;
+}
+.searchDIV input[type= text]{
+    width: 24vw;
+    border: none;
+    border-right:1px solid grey ;
+}
+.BannerHeader{
+    display: flex;
+}
+/* ------------------------------------------------------------------------------- */
+.CardSection{
+    background-color: #303032;
+    height: fit-content;
+    width: 55%;
+    margin-top: 18px;
+}
+.subCardSection{
+    width:95%;
+    min-height: 664px;
+    margin: 20px;
+}
+.CardSearch{
+    width: 62%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.CardSearch input[type= text]{
+    width: 24vw;
+    border: none;
+    padding: 2px 10px;
+}
+.CardLists{
+    margin:5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: -20px;
+    border-bottom: 1px solid black;
+}
+
+.CardLists ul>li{
+    margin: 2px;
+    margin-bottom: -10px;
+    display: inline-block;
+    list-style: none;
+}
+.CardLists ul>li button{
+    padding: 5px;
+    border: none;
+    background-color:#303032;
+    color:white;
+    font-size: 15px;
+}
+.RestoreHidden{
+    max-width: 664px;
+    display: flex;
+    justify-content: end;
+}
+.RestoreHidden button{
+    background-color:#303032;
+    border: none;
+    color: #2DA4D7;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.YourTokenSection{
+    min-width: 460px;
+    min-height: px;
+}
+
+@media screen and (max-width:990px){
+    h2{
+        text-align: center;
+        width:70%;
+    }
+}

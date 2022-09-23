@@ -1,0 +1,138 @@
+.NavContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    height: fit-content;
+    color: #fff;
+    background-color: #262626;
+}
+.NavChild1{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+.LeftDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    gap: 10px;
+    
+}
+.PoocoinImages1{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    font-weight:500;
+    color: #fff;
+}
+.PoocoinImages1:hover{
+    color: white;
+}
+.PooCoinCharts{
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+    text-align: center;
+    text-shadow:1.5px 1px 1px gray;
+}
+
+.PoocoinImages2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 0px 4px;
+    border-left:0.5px solid grey;
+    border-right:0.5px solid grey;
+}
+.PoocoinImages2 a{
+    text-decoration: none;
+    color: #2DA4D7;
+    font-weight: 400;
+}
+.PoocoinImages2 a:hover{
+    text-decoration: underline;
+    color: #1284b6;
+}
+.PoocoinImages3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: #2DA4D7;
+    font-weight:500;
+    gap: 4px;
+}
+.PooImageCircleBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.bunchOfLinks{
+    height:10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 45%;
+    gap: 14px;
+    padding: 15px 7px;
+    margin-right: 40px;
+}
+.bunchOfLinks a{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+}
+.Btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 0px -20px 0px 20px;
+}
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width:990px){
+    .NavContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .NavChild1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bunchOfLinks{
+        width: 120%;
+        margin: 0;
+        margin-top:-20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
